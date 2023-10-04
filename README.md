@@ -1,11 +1,14 @@
 # Coupon Analysis
 
+[Link to Jupyter Notebook](analysis.ipynb)
+
+
 # Context
 Imagine driving through town and a coupon is delivered to your cell phone for a restaraunt near where you are driving. Would you accept that coupon and take a short detour to the restaraunt? Would you accept the coupon but use it on a sunbsequent trip? Would you ignore the coupon entirely? What if the coupon was for a bar instead of a restaraunt? What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? What about if it was just you and your partner in the car? Would weather impact the rate of acceptance? What about the time of day?
 Obviously, proximity to the business is a factor on whether the coupon is delivered to the driver or not, but what are the factors that determine whether a driver accepts the coupon once it is delivered to them? How would you determine whether a driver is likely to accept a coupon?
 
 # Objective
-Explore one of the other coupon groups and try to determine the characteristics of passengers who accept the coupons.
+Explore the coupon groups and try to determine the characteristics of passengers who accept the coupons.
 
 # Analysis
 
@@ -30,7 +33,7 @@ Having processed the dataset below are some target groups found for the Bar Coup
 #### Target Group 1: 
 - visit the bar more than 3 times a month
 
-| bar_visits  | False | True | Sum  | Acceptance Rate |
+| Group  | False | True | Sum  | Acceptance Rate |
 |-------------|-------|------|------|-----------------|
 | 3 or fewer  | 1131  | 666  | 1797 | 0.370618        |
 | more than 3 | 59    | 161  | 220  | 0.731818        |
@@ -93,7 +96,7 @@ Having processed the dataset below are some target groups found for the Restaura
  - Age is between 21 and 50 AND
  - Visits restaurant between 1 and 8+ times a month
 
-| TargetGroup   | False | True | Sum  | Acceptance Rate |
+| Group   | False | True | Sum  | Acceptance Rate |
 |---------------|-------|------|------|-----------------|
 | All Others    | 742   | 501  | 1243 | 0.403057        |
 | Target Group  | 92    | 157  | 249  | 0.630522        |
@@ -108,7 +111,7 @@ Among those that do not have children, and are between the ages of 21 and 50, an
  - Receives the coupon between 10AM dn 6PM AND
  - Has no urgent destination
 
-| TargetGroup   | False | True | Sum  | Acceptance Rate |
+| Group   | False | True | Sum  | Acceptance Rate |
 |---------------|-------|------|------|-----------------|
 | All Others    | 786   | 569  | 1355 | 0.419926        |
 | Target Group  | 48    | 89   | 137  | 0.649635        |
@@ -123,7 +126,7 @@ Among those that do not have children, and are between the ages of 21 and 50, an
 - Coupon expiration is 1 day AND
 - Weather is Sunny and 80 Deg
 
-| TargetGroup   | False | True | Sum | Acceptance Rate |
+| Group   | False | True | Sum | Acceptance Rate |
 |---------------|-------|------|-----|-----------------|
 | All Others    | 582   | 356  | 938 | 0.379531        |
 | Target Group  | 252   | 302  | 554 | 0.545126        |
