@@ -14,13 +14,14 @@ Explore the coupon groups and try to determine the characteristics of passengers
 
 ## Overview of All Coupon Acceptance Rates
 
-| Coupon                |   False  |    True  |      Sum | Acceptance Rate |
-|-----------------------|---------:|---------:|---------:|----------------:|
-| Bar                   | 0.093819 | 0.065200 | 0.159019 |        0.410015 |
-| Restaurant(20-50)     | 0.065752 | 0.051876 | 0.117629 |        0.441019 |
-| Coffee House          | 0.157758 | 0.157285 | 0.315043 |        0.499249 |
-| Restaurant(<20)       | 0.064333 | 0.155314 | 0.219647 |        0.707107 |
-| Carry out & Take away | 0.049905 | 0.138757 | 0.188663 |        0.735478 |
+| Coupon | False | True | Sum  | Acceptance Rate |
+|----------|-------|------|------|-----------------|
+| Bar      | 1190  | 827  | 2017 | 0.410015        |
+| Restaurant(20-50) | 834  | 658  | 1492 | 0.441019   |
+| Coffee House     | 2001 | 1995 | 3996 | 0.499249   |
+| Restaurant(<20)  | 816  | 1970 | 2786 | 0.707107   |
+| Carry out & Take away | 633 | 1760 | 2393 | 0.735478 |
+
 
 ![Description of image](images/coupon_acceptance.png)
 
