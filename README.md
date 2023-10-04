@@ -38,7 +38,7 @@ Having processed the dataset below are some target groups found for the Bar Coup
 | 3 or fewer  | 1131  | 666  | 1797 | 0.370618        |
 | more than 3 | 59    | 161  | 220  | 0.731818        |
 
-![Description of image](images/bar_visits.png)
+![Target Group 1](images/bar_visits.png)
 
 Among those that visit the bar more than 3 times a month, the acceptance rate was 73.18%, which is 32.19% higher than the overall acceptance rate of 41.00%, indicating that this would be a good group to target in future coupon campaigns. Furthermore, a z-test on the data yielded a p-value of 8.5305e-25, which, being less than 0.05, indicates that this difference is statistically significant.
 
@@ -52,7 +52,7 @@ Among those that visit the bar more than 3 times a month, the acceptance rate wa
 | Age > 25 & Visit > 1 |      128 |     292 |     420 |        0.695238 |
 | All Others           |     1062 |     535 |    1597 |        0.335003 |
 
-![Description of image](images/bar_visits_age.png)
+![Target Group 2](images/bar_visits_age.png)
 
 Among those that visit the bar more than once a month AND are over the age of 25, the acceptance rate was 69.52%, which is 28.52% higher than the overall acceptance rate of 41.00%, indicating that this would be a more granular group to target in future coupon campaigns. Furthermore, a z-test on the data yielded a p-value of 1.08683e-40, which, being less than 0.05, indicates that this difference is statistically significant.
 
@@ -67,7 +67,7 @@ Among those that visit the bar more than once a month AND are over the age of 25
 | All Others | 1021 | 427 | 1448 | 0.294890 |
 | Target Group | 169 | 400 | 569 | 0.702988 |
 
-![Description of image](images/bar_visits_pax_occupation.png)
+![Target Group 3](images/bar_visits_pax_occupation.png)
 
 Among those that go to bars more than once a month AND had passengers that were not a kid AND had occupations other than farming, fishing, or forestry, the acceptance rate was 70.29%, which is 29.29% higher than the overall acceptance rate of 41.00%, indicating that this would be a even more granular group to target in future coupon campaigns. Furthermore, a z-test on the data yielded a p-value of 4.048403e-63, which, being less than 0.05, indicates that this difference is statistically significant.
 
@@ -81,7 +81,7 @@ Among those that go to bars more than once a month AND had passengers that were 
 | All Others    | 1002  | 671  | 1673 | 0.401076        |
 | Target Group  | 188   | 156  | 344  | 0.453488        |
 
-![Description of image](images/bar_complex.png)
+![Target Group 4](images/bar_complex.png)
 
 The coupon acceptance rate was 45.34%. This rate is a modest increase of only 4.34% compared to the overall acceptance rate of 41.00%. A z-test on this data gave a p-value of 0.0718. Since this value is greater than 0.05, the observed difference is not statistically significant. Hence, targeting this particular group is not recommended.
 
@@ -101,7 +101,7 @@ Having processed the dataset below are some target groups found for the Restaura
 | All Others    | 742   | 501  | 1243 | 0.403057        |
 | Target Group  | 92    | 157  | 249  | 0.630522        |
 
-![Description of image](images/res_group1.png)
+![Target Group 1](images/res_group1.png)
 
 Among those that do not have children, and are between the ages of 21 and 50, and visit the restaurant between 1 and 8+ times a month, the acceptance rate was 63.05%, which is 19.05% higher than the overall acceptance rate of 44%, indicating that this would be a good group to target in future coupon campaigns. Furthermore, given that the p-value of 4.15637-11 is less than 0.05, this difference can be considered statistically significant.
 
@@ -117,7 +117,7 @@ Among those that do not have children, and are between the ages of 21 and 50, an
 | Target Group  | 48    | 89   | 137  | 0.649635        |
 
 
-![Description of image](images/res_group2.png)
+![Target Group 2](images/res_group2.png)
 
 
  Among those that travel with a partner, and are traveling between the hours of 10AM and 6PM, and have no urgent destination, the acceptance rate was 64.96%, which is 20.96% higher than the overall acceptance rate of 44%, indicating that this would be a good group to target in future coupon campaigns. Furthermore, given that the p-value of 2.462240e-07 is less than 0.05, this difference can be considered statistically significant.
@@ -131,7 +131,7 @@ Among those that do not have children, and are between the ages of 21 and 50, an
 | All Others    | 582   | 356  | 938 | 0.379531        |
 | Target Group  | 252   | 302  | 554 | 0.545126        |
 
-![Description of image](images/res_group3.png)
+![Target Group 3](images/res_group3.png)
 
 Among those that are are sent a coupon on a Sunny day with a temperature of 80 deg and a coupon expiration of 1 day, the acceptance rate was 54.51%, which is 10.51% higher than the overall acceptance rate of 44%, indicating that this would be a good group to target in future coupon campaigns. Furthermore, given that the p-value of 4.83596e-10 is less than 0.05, this difference can be considered statistically significant.
 
